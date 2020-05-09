@@ -1,0 +1,653 @@
+@font-face {
+  font-family: 'filmora';
+  src:  url('fonts/filmora.bin');
+  src:  url('fonts/filmora.bin') format('embedded-opentype'),
+    url('fonts/filmora-1.bin') format('truetype'),
+    url('fonts/filmora-2.bin') format('woff'),
+    url('fonts/filmora.svg') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.fm {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'filmora' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.fm-angle-double-right:before {
+  content: "\e903";
+}
+.fm-link:before {
+  content: "\e903";
+}
+.fm-more:before {
+  content: "\e903";
+}
+.fm-angle-left:before {
+  content: "\e904";
+}
+.fm-prev:before {
+  content: "\e904";
+}
+.fm-angle-right:before {
+  content: "\e905";
+}
+.fm-next:before {
+  content: "\e905";
+}
+.fm-arrow-right:before {
+  content: "\e91f";
+}
+.fm-link-alt:before {
+  content: "\e91f";
+}
+.fm-more-alt:before {
+  content: "\e91f";
+}
+.fm-cancel:before {
+  content: "\e907";
+}
+.fm-close:before {
+  content: "\e907";
+}
+.fm-remove:before {
+  content: "\e907";
+}
+.fm-caret-down:before {
+  content: "\e906";
+}
+.fm-toggle:before {
+  content: "\e906";
+}
+.fm-caret-up:before {
+  content: "\e908";
+}
+.fm-toggle-up:before {
+  content: "\e908";
+}
+.fm-check:before {
+  content: "\e90d";
+}
+.fm-tick:before {
+  content: "\e90d";
+}
+.fm-download:before {
+  content: "\e90e";
+}
+.fm-try:before {
+  content: "\e90e";
+}
+.fm-download-thin:before {
+  content: "\e918";
+}
+.fm-try-thin:before {
+  content: "\e918";
+}
+.fm-extra:before {
+  content: "\e95f";
+}
+.fm-dots:before {
+  content: "\e95f";
+}
+.fm-extra-alt:before {
+  content: "\e960";
+}
+.fm-dots-alt:before {
+  content: "\e960";
+}
+.fm-list:before {
+  content: "\e931";
+}
+.fm-loading:before {
+  content: "\e932";
+}
+.fm-busy:before {
+  content: "\e932";
+}
+.fm-wait:before {
+  content: "\e932";
+}
+.fm-menu:before {
+  content: "\e90f";
+}
+.fm-burger:before {
+  content: "\e90f";
+}
+.fm-bar:before {
+  content: "\e90f";
+}
+.fm-play:before {
+  content: "\e913";
+}
+.fm-play-thin:before {
+  content: "\e920";
+}
+.fm-purchase:before {
+  content: "\e919";
+}
+.fm-buy:before {
+  content: "\e919";
+}
+.fm-cart:before {
+  content: "\e919";
+}
+.fm-search:before {
+  content: "\e91a";
+}
+.fm-find:before {
+  content: "\e91a";
+}
+.fm-share:before {
+  content: "\e964";
+}
+.fm-social:before {
+  content: "\e964";
+}
+.fm-star:before {
+  content: "\e91e";
+}
+.fm-star-full:before {
+  content: "\e91e";
+}
+.fm-rating:before {
+  content: "\e91e";
+}
+.fm-star-empty:before {
+  content: "\e921";
+}
+.fm-rating-empty:before {
+  content: "\e921";
+}
+.fm-star-half:before {
+  content: "\e922";
+}
+.fm-rating-half:before {
+  content: "\e922";
+}
+.fm-android:before {
+  content: "\e914";
+}
+.fm-browser:before {
+  content: "\e961";
+}
+.fm-chrome:before {
+  content: "\e958";
+}
+.fm-css3:before {
+  content: "\e959";
+}
+.fm-douban:before {
+  content: "\e95a";
+}
+.fm-facebook:before {
+  content: "\e909";
+}
+.fm-fb:before {
+  content: "\e909";
+}
+.fm-finder:before {
+  content: "\e90a";
+}
+.fm-mac:before {
+  content: "\e90a";
+}
+.fm-google:before {
+  content: "\e95b";
+}
+.fm-g:before {
+  content: "\e95b";
+}
+.fm-google-plus:before {
+  content: "\e90b";
+}
+.fm-h5:before {
+  content: "\e95c";
+}
+.fm-html5:before {
+  content: "\e95c";
+}
+.fm-hatena:before {
+  content: "\e910";
+}
+.fm-instagram:before {
+  content: "\e90c";
+}
+.fm-ins:before {
+  content: "\e90c";
+}
+.fm-ios:before {
+  content: "\e917";
+}
+.fm-linkedin:before {
+  content: "\e95d";
+}
+.fm-in:before {
+  content: "\e95d";
+}
+.fm-pinterest:before {
+  content: "\e962";
+}
+.fm-pin:before {
+  content: "\e962";
+}
+.fm-snapchat:before {
+  content: "\e926";
+}
+.fm-tencent:before {
+  content: "\e94e";
+}
+.fm-qq:before {
+  content: "\e94e";
+}
+.fm-tencent-weibo:before {
+  content: "\e95e";
+}
+.fm-twitter:before {
+  content: "\e912";
+}
+.fm-t:before {
+  content: "\e912";
+}
+.fm-wechat:before {
+  content: "\e94f";
+}
+.fm-wx:before {
+  content: "\e94f";
+}
+.fm-weibo:before {
+  content: "\e950";
+}
+.fm-wb:before {
+  content: "\e950";
+}
+.fm-windows:before {
+  content: "\e916";
+}
+.fm-win:before {
+  content: "\e916";
+}
+.fm-youtube:before {
+  content: "\e915";
+}
+.fm-yt:before {
+  content: "\e915";
+}
+.fm-cancel-alt:before {
+  content: "\e91b";
+}
+.fm-close-alt:before {
+  content: "\e91b";
+}
+.fm-remove-alt:before {
+  content: "\e91b";
+}
+.fm-essential:before {
+  content: "\e923";
+}
+.fm-bookmark:before {
+  content: "\e923";
+}
+.fm-guide:before {
+  content: "\e91d";
+}
+.fm-book:before {
+  content: "\e91d";
+}
+.fm-guide-alt:before {
+  content: "\e924";
+}
+.fm-sign:before {
+  content: "\e924";
+}
+.fm-info:before {
+  content: "\e927";
+}
+.fm-inspired:before {
+  content: "\e951";
+}
+.fm-bulb:before {
+  content: "\e951";
+}
+.fm-menu-alt:before {
+  content: "\e952";
+}
+.fm-metro:before {
+  content: "\e952";
+}
+.fm-movie:before {
+  content: "\e91c";
+}
+.fm-video:before {
+  content: "\e91c";
+}
+.fm-movie-alt:before {
+  content: "\e953";
+}
+.fm-video-alt:before {
+  content: "\e953";
+}
+.fm-question:before {
+  content: "\e925";
+}
+.fm-faq:before {
+  content: "\e925";
+}
+.fm-question-alt:before {
+  content: "\e954";
+}
+.fm-faq-alt:before {
+  content: "\e954";
+}
+.fm-subscribe:before {
+  content: "\e911";
+}
+.fm-mail:before {
+  content: "\e911";
+}
+.fm-contact:before {
+  content: "\e911";
+}
+.fm-envelope:before {
+  content: "\e911";
+}
+.fm-subscribe-alt:before {
+  content: "\e955";
+}
+.fm-mail-alt:before {
+  content: "\e955";
+}
+.fm-contact-alt:before {
+  content: "\e955";
+}
+.fm-envelope-alt:before {
+  content: "\e955";
+}
+.fm-tutorial:before {
+  content: "\e956";
+}
+.fm-text:before {
+  content: "\e956";
+}
+.fm-award:before {
+  content: "\e942";
+}
+.fm-medal:before {
+  content: "\e942";
+}
+.fm-cog:before {
+  content: "\e92a";
+}
+.fm-gear:before {
+  content: "\e92a";
+}
+.fm-setting:before {
+  content: "\e92a";
+}
+.fm-comment:before {
+  content: "\e92b";
+}
+.fm-reply:before {
+  content: "\e92b";
+}
+.fm-comment-alt:before {
+  content: "\e92c";
+}
+.fm-reply-alt:before {
+  content: "\e92c";
+}
+.fm-comment-more:before {
+  content: "\e929";
+}
+.fm-reply-more:before {
+  content: "\e929";
+}
+.fm-draft:before {
+  content: "\e92f";
+}
+.fm-blank:before {
+  content: "\e92f";
+}
+.fm-edit:before {
+  content: "\e930";
+}
+.fm-feed:before {
+  content: "\e963";
+}
+.fm-rss:before {
+  content: "\e963";
+}
+.fm-flag:before {
+  content: "\e943";
+}
+.fm-report:before {
+  content: "\e943";
+}
+.fm-gift:before {
+  content: "\e933";
+}
+.fm-reward:before {
+  content: "\e933";
+}
+.fm-level:before {
+  content: "\e92d";
+}
+.fm-diamond:before {
+  content: "\e92d";
+}
+.fm-presentation:before {
+  content: "\e934";
+}
+.fm-how:before {
+  content: "\e934";
+}
+.fm-schedule:before {
+  content: "\e93e";
+}
+.fm-calendar:before {
+  content: "\e93e";
+}
+.fm-send:before {
+  content: "\e93f";
+}
+.fm-publish:before {
+  content: "\e93f";
+}
+.fm-solved:before {
+  content: "\e940";
+}
+.fm-check-alt:before {
+  content: "\e940";
+}
+.fm-thumbs-down:before {
+  content: "\e92e";
+}
+.fm-dislike:before {
+  content: "\e92e";
+}
+.fm-disagree:before {
+  content: "\e92e";
+}
+.fm-disapprove:before {
+  content: "\e92e";
+}
+.fm-thumbs-up:before {
+  content: "\e900";
+}
+.fm-like:before {
+  content: "\e900";
+}
+.fm-agree:before {
+  content: "\e900";
+}
+.fm-approve:before {
+  content: "\e900";
+}
+.fm-trophy:before {
+  content: "\e935";
+}
+.fm-contest:before {
+  content: "\e935";
+}
+.fm-unsolved:before {
+  content: "\e957";
+}
+.fm-problem:before {
+  content: "\e957";
+}
+.fm-user:before {
+  content: "\e901";
+}
+.fm-view:before {
+  content: "\e902";
+}
+.fm-eye:before {
+  content: "\e902";
+}
+.fm-box:before {
+  content: "\e928";
+}
+.fm-container:before {
+  content: "\e928";
+}
+.fm-camera:before {
+  content: "\e944";
+}
+.fm-photo:before {
+  content: "\e944";
+}
+.fm-cog-alt:before {
+  content: "\e945";
+}
+.fm-gear-alt:before {
+  content: "\e945";
+}
+.fm-setting-alt:before {
+  content: "\e945";
+}
+.fm-crown:before {
+  content: "\e946";
+}
+.fm-prime:before {
+  content: "\e946";
+}
+.fm-crown-alt:before {
+  content: "\e947";
+}
+.fm-privilege:before {
+  content: "\e947";
+}
+.fm-diamond-alt:before {
+  content: "\e948";
+}
+.fm-economy:before {
+  content: "\e948";
+}
+.fm-expired:before {
+  content: "\e949";
+}
+.fm-sandglass:before {
+  content: "\e949";
+}
+.fm-group:before {
+  content: "\e94a";
+}
+.fm-business:before {
+  content: "\e94a";
+}
+.fm-heart:before {
+  content: "\e936";
+}
+.fm-heart-empty:before {
+  content: "\e936";
+}
+.fm-favor:before {
+  content: "\e936";
+}
+.fm-favorite:before {
+  content: "\e936";
+}
+.fm-heart-full:before {
+  content: "\e938";
+}
+.fm-heart-alt:before {
+  content: "\e938";
+}
+.fm-favor-alt:before {
+  content: "\e938";
+}
+.fm-favorite-alt:before {
+  content: "\e938";
+}
+.fm-lock:before {
+  content: "\e94b";
+}
+.fm-security:before {
+  content: "\e94b";
+}
+.fm-medal-alt:before {
+  content: "\e94c";
+}
+.fm-basic:before {
+  content: "\e94c";
+}
+.fm-power:before {
+  content: "\e939";
+}
+.fm-logout:before {
+  content: "\e939";
+}
+.fm-signout:before {
+  content: "\e939";
+}
+.fm-sad:before {
+  content: "\e93a";
+}
+.fm-sad-full:before {
+  content: "\e93b";
+}
+.fm-sad-alt:before {
+  content: "\e93b";
+}
+.fm-shield:before {
+  content: "\e94d";
+}
+.fm-bind:before {
+  content: "\e94d";
+}
+.fm-security-alt:before {
+  content: "\e94d";
+}
+.fm-shop:before {
+  content: "\e937";
+}
+.fm-bag:before {
+  content: "\e937";
+}
+.fm-smile:before {
+  content: "\e93c";
+}
+.fm-smile-full:before {
+  content: "\e93d";
+}
+.fm-smile-alt:before {
+  content: "\e93d";
+}
+.fm-trash:before {
+  content: "\e941";
+}
+.fm-remove-alt2:before {
+  content: "\e941";
+}
+.fm-bin:before {
+  content: "\e941";
+}
