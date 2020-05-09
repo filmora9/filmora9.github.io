@@ -1,0 +1,37 @@
+/****************************************************
+*  project: filmora website 2018 main pages         *
+*  description: common style for all                *
+*  author: mazq@wondershare.cn                      *
+*  update: 190509                                   *
+****************************************************/
+/* products */
+[data-pro="filmora"] .pro-filmora-9,
+[data-pro="filmora"] .pro-filmora-go,
+[data-pro="filmora"] .pro-filmora-pro,
+[data-pro="filmora"] .pro-filmora-scrn,
+[data-pro="filmora"] .pro-filmora-biz,
+[data-pro="filmora-9"] .pro-filmora,
+[data-pro="filmora-9"] .pro-filmora-go,
+[data-pro="filmora-9"] .pro-filmora-pro,
+[data-pro="filmora-9"] .pro-filmora-scrn,
+[data-pro="filmora-9"] .pro-filmora-biz,
+[data-pro="filmora-go"] .pro-filmora,
+[data-pro="filmora-go"] .pro-filmora-9,
+[data-pro="filmora-go"] .pro-filmora-pro,
+[data-pro="filmora-go"] .pro-filmora-scrn,
+[data-pro="filmora-go"] .pro-filmora-biz,
+[data-pro="filmora-pro"] .pro-filmora,
+[data-pro="filmora-pro"] .pro-filmora-9,
+[data-pro="filmora-pro"] .pro-filmora-go,
+[data-pro="filmora-pro"] .pro-filmora-scrn,
+[data-pro="filmora-pro"] .pro-filmora-biz,
+[data-pro="filmora-scrn"] .pro-filmora,
+[data-pro="filmora-scrn"] .pro-filmora-9,
+[data-pro="filmora-scrn"] .pro-filmora-go,
+[data-pro="filmora-scrn"] .pro-filmora-pro,
+[data-pro="filmora-scrn"] .pro-filmora-biz,
+[data-pro="filmora-biz"] .pro-filmora,
+[data-pro="filmora-biz"] .pro-filmora-9,
+[data-pro="filmora-biz"] .pro-filmora-go,
+[data-pro="filmora-biz"] .pro-filmora-pro,
+[data-pro="filmora-biz"] .pro-filmora-scrn { display: none !important; margin: 0 !important; } /* csslint allow: important */
